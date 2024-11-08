@@ -30,7 +30,7 @@ module tb ();
   supply0 VGND;
 
   // Instantiate the design under test (DUT)
-  tt_um_carryskip_adder8 user_project (
+  tt_um_kashmaster_carryskip user_project (
   `ifdef GL_TEST
         .VPWR(VPWR),
         .VGND(VGND),
